@@ -1,5 +1,9 @@
 title: Strays's Blog
-description: Blog
+motto: 啧啧啧...
+keywords: 博客, blog
+description: strays的博客
 theme: jekyll-theme-architect
 exclude: ['README.md','LICENSE','CNAME','Gemfile.lock']
 markdown_ext:  markdown,mkd,mkdn,md
+timezone: Asia/Shanghai
+permalink: /article/:year/:month/:day/:title

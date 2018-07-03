@@ -354,6 +354,22 @@ td,
 th {
   padding: 0; }
 
+
+/**
+ * 给部分标签添加字体
+ */
+a,
+span,
+p,
+b,
+i,
+small,
+h1,
+h2,
+h3 {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', serif;
+}   
+
 .highlight table td {
   padding: 5px; }
 
@@ -614,7 +630,7 @@ header h2 {
 
 .inner {
   position: relative;
-  width: 940px;
+  width: 1000px;
   margin: 0 auto; }
 
 #content-wrapper {
@@ -630,7 +646,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  width: 200px;
+  width: 230px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;

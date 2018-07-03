@@ -1,0 +1,7 @@
+.art-title {
+	display: inline-block;
+	margin: 8px 0;
+}
+.art-title small {
+	font-size: 16px;
+}
