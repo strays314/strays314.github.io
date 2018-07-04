@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "zh-CN" }}">
+<html lang="{{ site.lang | default: 'zh-CN' }}">
   <head>
   	<title>
   		{% if page.title == nil %}
@@ -7,7 +7,7 @@
   		{% else %}
 			{{ page.title }}
   		{% endif %}
-  </title>
+  	</title>
     <meta charset='utf-8'>
     <meta name="keywords" content="{{ site.keywords | default: 'blog, 博客' }}"/>
     <meta name="description" content="{{ site.description | default: 'strays的博客' }}"/>
@@ -34,5 +34,14 @@
         {% include sidebar.html %}
       </div>
     </div>
+
+    {% include footer.html %}
+
+    <div class="go-top">
+    	<a href="javascript:void(0);"><img src="{{ '/assets/images/go-top.png' }}"></a>
+    </div>
   </body>
+
+  <script type="text/javascript" src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/default.js' | relative_url }}"></script>
 </html>

@@ -2,6 +2,50 @@
 	display: inline-block;
 	margin: 8px 0;
 }
+
 .art-title small {
 	font-size: 16px;
+	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', serif;
+}
+
+.inner h2 {
+	padding: 5px 0;
+	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', serif;
+}
+
+#sidebar h2 {
+	font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', serif;
+}
+
+.nav-title {
+	font-size: 20px;
+}
+
+footer {
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', serif; 
+	background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+	border-top: 2px solid #2879d0;
+}
+
+.copyright {
+	margin: 5px auto;
+	width: 1000px;
+	text-align: center;
+}
+
+.contact {
+	margin: 5px auto;
+	width: 1000px;
+	text-align: center;
+}
+
+.go-top {
+	display: none;
+	position: fixed;
+	bottom: 150px;
+    right: 300px;
+}
+
+.go-top img {
+	width: 80px;
 }

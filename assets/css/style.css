@@ -358,7 +358,7 @@ th {
 /**
  * 给部分标签添加字体
  */
-a,
+/*a,
 span,
 p,
 b,
@@ -368,7 +368,7 @@ h1,
 h2,
 h3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', serif;
-}   
+} */  
 
 .highlight table td {
   padding: 5px; }

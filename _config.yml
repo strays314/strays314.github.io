@@ -1,4 +1,4 @@
-title: Strays's Blog
+title: Strays-黄涛的个人网站
 motto: 啧啧啧...
 keywords: 博客, blog
 description: strays的博客
@@ -7,3 +7,6 @@ exclude: ['README.md','LICENSE','CNAME','Gemfile.lock']
 markdown_ext:  markdown,mkd,mkdn,md
 timezone: Asia/Shanghai
 permalink: /article/:year/:month/:day/:title
+ownerurl:
+  github: https://github.com/strays314
+  weibo: https://weibo.com/u/2947270431?is_all=1
